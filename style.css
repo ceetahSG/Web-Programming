@@ -1,0 +1,147 @@
+/*General reset code*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: lightcyan;
+
+
+    
+   
+
+}
+#main-nav{
+    background-color: aqua;
+    color:black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#logo{
+    margin:0px;
+
+}
+#main-nav ul{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+
+    padding: 0px;
+
+
+}
+#main-nav ul li{
+    margin: 20px;
+}
+#main-nav a {
+    text-decoration: none; /* Removes underline */
+    color: black;
+    font-weight: bold;
+}
+.section-title {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+#product-container {
+    display: flex;
+    justify-content: center; /* Centers products */
+    gap: 20px; /* Space between products */
+    flex-wrap: wrap; /* Allows products to wrap on small screens */
+    padding: 20px;
+}
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Simple grey box to represent an image */
+.image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Styling the button inside the product card */
+.product-card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
+
+/* --- CONTACT FORM STYLING --- */
+/* Target specific ID: contact-section */
+#contact-section {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto; /* Centers the form */
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styling inputs using Attribute selectors or types */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Includes padding in width calculation */
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Styling the submit button specifically by ID */
+#submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* --- FOOTER STYLING --- */
+#main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

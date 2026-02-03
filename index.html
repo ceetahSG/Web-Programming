@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--This is a comment-->
+
+    <nav id="main-nav">
+        <h2 id="logo">ShopSimple</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="featured-section">
+        <h1 class="section-title">Featured Products</h1>
+        
+        <div id="product-container">
+            <div class="product-card">
+                <div class="image-placeholder">Image</div>
+                <h3>Camera Lens</h3>
+                <p>$199.00</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="image-placeholder">Image</div>
+                <h3>Wrist Watch</h3>
+                <p>$89.00</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="image-placeholder">Image</div>
+                <h3>Headphones</h3>
+                <p>$120.00</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <div class="image-placeholder">Image</div>
+                <h3>Sneakers</h3>
+                <p>$50.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h1 class="section-title">Contact Us</h1>
+        
+        <form id="contact-form">
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="useremail" placeholder="Your email..">
+
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="usermessage" placeholder="Write something.."></textarea>
+
+            <input type="submit" value="Send Message" id="submit-btn">
+        </form>
+    </section>
+
+    <footer id="main-footer">
+        <p>&copy; 2024 ShopSimple. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
